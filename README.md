@@ -113,6 +113,6 @@ That's it! Save your config.plist and you should be ready to atempt an installat
 #### Pro tip for installing from USB: 
 **Try using a USB 2.0 port on the back of your motherboard.**  I spent DAYS trying to boot from usb 3.0 ports with no luck at all, untill I found a reddit post that pointed me in the right direction.  
 
-Don't forget to do the Post install process from the OpenCore Install Guide, and install the Nvidia Webdrivers.  
+Don't forget to do the [post install](https://dortania.github.io/OpenCore-Post-Install/) process from the OpenCore Install Guide, and install the Nvidia Webdrivers.  
 
 Good luck!
