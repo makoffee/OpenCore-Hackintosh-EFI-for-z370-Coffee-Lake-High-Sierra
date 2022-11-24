@@ -113,7 +113,7 @@ That's it! Save your config.plist and you should be ready to atempt an installat
 #### Pro tip for installing from USB: 
 **Try using a USB 2.0 port on the back of your motherboard.**  I spent DAYS trying to boot from usb 3.0 ports with no luck at all, untill I found a reddit post that pointed me in the right direction.  
 
-Don't forget to do the [post install](https://dortania.github.io/OpenCore-Post-Install/) process from the OpenCore Install Guide, and install the https://www.tonymacx86.com/nvidia-drivers/ after updateing MacOS.
+Don't forget to do the [post install](https://dortania.github.io/OpenCore-Post-Install/) process from the OpenCore Install Guide, and install the [Nvidia Web Drivers](https://www.tonymacx86.com/nvidia-drivers/) after updateing MacOS.
 
 So far everything seems to be working for me, however you will need to sort out some minor issues with sleep by following the post install guides. 
 
