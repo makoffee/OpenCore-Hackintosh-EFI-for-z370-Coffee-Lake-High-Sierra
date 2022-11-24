@@ -23,7 +23,7 @@ I feel that sharing knowledge and config.plists are the only way for the hackint
 Good point.  I myself have recently purchased a new M1 macbook pro, and to my astonishment not all software has made the transition to nativly comiled code for Apple Silicon.  Furthermore Rosette emulation isn't working for 32bit applications and some productivity apps that are apart of my production workflow are not functional.  Nor is there any support for FireWire in the latest versions of MacOS.  *(Yes I still have drives and audio devices that use FireWire.)*  So in my infinite wisdom, having just formated my Clover based hackintosh, realized I may need to keep an older version of MacOS around to support my hardware and software a bit longer until Apple is able to address these issues with software updates.
 
 # Getting started
-### Bios settings
+### Configure your bios settings
 
 #### Disable:
 - Boot  > **Fast Boot**
