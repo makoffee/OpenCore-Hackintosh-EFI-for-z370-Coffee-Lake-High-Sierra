@@ -50,8 +50,8 @@ Good point.  I myself have recently purchased a new M1 macbook pro, and to my as
 
 *Other guides always mention the following, but I don't have them available in my BIOS revision so I've added these for those who need it:*
 
-Execute Disable Bit
-EHCI/XHCI Hand-off
+- Execute Disable Bit
+- EHCI/XHCI Hand-off
 
 ### Note on clock settings, AVX and XMP
 Start at stock speeds and work your way up to more agressive overclocks once you have a stable installation working.  I had a lot of trouble with AVX levels that were too low and caused errors.
