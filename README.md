@@ -84,7 +84,7 @@ Now that you have created your bootable High Sierra USB stick copy the contents 
 - AppleALC.kext
 - IntelMausi.kext
 - Lilu.kext
-- USBMap.kext (you will want to rebuild your own post install)
+- USBMap.kext (you will want create your own map post install)
 - VirtualSMC.kext
 - WhateverGreen.kext
 - XHCI-unsupported.kext
