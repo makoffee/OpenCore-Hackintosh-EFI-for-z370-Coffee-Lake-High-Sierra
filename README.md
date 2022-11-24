@@ -7,8 +7,8 @@ Big thanks to @acidanthera for his great starter EFI [project](https://github.co
 - Asus Z370 Prime-A
 - Intel i7 8700K 
 - Nvidia GTX 1080 Founders Edition
-- Samsung 970 EVO NVMe
-- 32gb (4x8gb) TridentZ RGB DDR4 3000 MHz
+- Samsung SSD 960 EVO 500GB
+- 32gb (4x8gb) G-Skill TridentZ F4-3000C14-8GTZR RGB DDR4 @ 3000 MHz
 
 ## Forward
 ### Why stay on High Sierra?
