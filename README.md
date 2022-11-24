@@ -95,7 +95,7 @@ Now that you have created your bootable High Sierra USB stick copy the contents 
 Requirements: **GenSMBIOS**
 https://github.com/corpnewt/GenSMBIOS
 
-Here you will have to get your hands dirty a bit, and replace the following lines in config.plist with the SMBIOS info you generate with the GenSMBIOS scripts.  There's no getting around it, this has to be uniqe and in the correct format.
+Here you will have to get your hands dirty a bit, and replace the following lines in config.plist with the SMBIOS info you generate with the GenSMBIOS scripts.  There's no getting around it, the serial numbers and ROM have to be unique and in the correct format.
 
 **replace the following XML entries in config.plist:**
 
