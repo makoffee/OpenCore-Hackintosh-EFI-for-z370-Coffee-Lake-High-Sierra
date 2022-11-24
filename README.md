@@ -4,11 +4,11 @@ Intel i7 8700K / Asus Z370-Prime-A / Nvidia GTX 1080 / OpenCore High Sierra [SUC
 Big thanks to @acidanthera for his great starter EFI [project](https://github.com/amrios/z370-g_vanilla) I based most of this work on.  I appreciated his help so much I've decided to publicly post my EFI config in the hope that it's helpful to anyone else with a similar hardware build.  No promises but I will try to keep this up to date as I continue my hackintosh adventures.
 
 # The Build
-Asus Z370 Prime-A
-Intel i7 8700K 
-Nvidia GTX 1080 Founders Edition
-Samsung 970 EVO NVMe
-32gb (4x8gb) TridentZ RGB DDR4 3000 MHz
+- Asus Z370 Prime-A
+- Intel i7 8700K 
+- Nvidia GTX 1080 Founders Edition
+- Samsung 970 EVO NVMe
+- 32gb (4x8gb) TridentZ RGB DDR4 3000 MHz
 
 ## Forward
 ### Why stay on High Sierra?
