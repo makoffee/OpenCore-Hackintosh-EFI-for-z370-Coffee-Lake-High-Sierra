@@ -26,44 +26,27 @@ Good point.  I myself have recently purchased a new M1 macbook pro, and to my as
 ### Bios settings
 
 #### Disable:
-Boot  > **Fast Boot**
-
-Boot > **Secure Boot**
-
-Boot > CSM (Compatibility Support Module) > **CSM**
-
-Advanced > Onboard Devices > Configuration > **Serial/COM Port**
-
-Advanced > Onboard Devices > Configuration > **Parallel Port**
-
-Advanced > System Agent (SA) Configuration > **VT-d** 
-
-Advanced > Thunderbolt™ Configuration > **Thunderbolt**
-
-Advanced > Cpu Configuration > **Intel SGX**
-
-Advanced > PCH-FW Configuration > TPM > **Intel Platform Trust**
-
+- Boot  > **Fast Boot**
+- Boot > **Secure Boot**
+- Boot > CSM (Compatibility Support Module) > **CSM**
+- Advanced > Onboard Devices > Configuration > **Serial/COM Port**
+- Advanced > Onboard Devices > Configuration > **Parallel Port**
+- Advanced > System Agent (SA) Configuration > **VT-d** 
+- Advanced > Thunderbolt™ Configuration > **Thunderbolt**
+- Advanced > Cpu Configuration > **Intel SGX**
+- Advanced > PCH-FW Configuration > TPM > **Intel Platform Trust**
 
 *Note: Turn off anything having todo with secure boot.  This is an EFI feature that's not compatible with Hackintosh because of Apples T2 secure rom.*
 
 #### Enable:
-Boot > Secure Boot > OS type : **Other OS**
-
-Advanced > CPU Configuration > Intel Virtualization Technology > **VT-x **
-
-Advanced > CPU Configuration > **Hyper-Threading**
-
-Advanced > System Agent (SA) Configuration > **Above 4G decoding**
-
-Advanced > System Agent (SA) Configuration > Graphics Configuration > DVMT Pre-Allocated(iGPU Memory): **64MB**
-
-Advanced > PCH Storage Configuration > **SATA Mode: AHCI**
-
-Advanced > System Agent > Graphics Configuration > **Primary Display: PCIE**
-
-Advanced > System Agent > Graphics Configuration > **iGPU Multi-Monitor: Disabled** *(Not needed after WhateverGreen 1.3.9)*
-
+- Boot > Secure Boot > OS type : **Other OS**
+- Advanced > CPU Configuration > Intel Virtualization Technology > **VT-x **
+- Advanced > CPU Configuration > **Hyper-Threading**
+- Advanced > System Agent (SA) Configuration > **Above 4G decoding**
+- Advanced > System Agent (SA) Configuration > Graphics Configuration > DVMT Pre-Allocated(iGPU Memory): **64MB**
+- Advanced > PCH Storage Configuration > **SATA Mode: AHCI**
+- Advanced > System Agent > Graphics Configuration > **Primary Display: PCIE**
+- Advanced > System Agent > Graphics Configuration > **iGPU Multi-Monitor: Disabled** *(Not needed after WhateverGreen 1.3.9)*
 
 *Other guides always mention the following, but I don't have them available in my BIOS revision so I've added these for those who need it:*
 
@@ -116,11 +99,11 @@ Here you will have to get your hands dirty a bit, and replace the following line
 
 **replace the following XML entries in config.plist:**
 
-PlatformInfo > Generic > SystemProductName  [iMac18,3 For High Sierra and older]
-PlatformInfo > Generic > SystemSerialNumber  [Serial from GenSMBIOS]
-PlatformInfo > Generic > MLB  [Board Serial from GenSMBIOS]
-PlatformInfo > Generic > SystemUUID [SmUUID from GenSMBIOS]
-PlatformInfo > Generic > ROM [See note from OpenCore Install Guide]
+- PlatformInfo > Generic > SystemProductName  [iMac18,3 For High Sierra and older]
+- PlatformInfo > Generic > SystemSerialNumber  [Serial from GenSMBIOS]
+- PlatformInfo > Generic > MLB  [Board Serial from GenSMBIOS]
+- PlatformInfo > Generic > SystemUUID [SmUUID from GenSMBIOS]
+- PlatformInfo > Generic > ROM [See note from OpenCore Install Guide]
 
 From OpenCore Install Guide
 > We set Generic -> ROM to either an Apple ROM (dumped from a real Mac), your NIC MAC address, or any random MAC address (could be just 6 random bytes, for this guide we'll use 11223300 0000. After install follow the Fixing iServices (opens new window) page on how to find your real MAC Address)
@@ -130,4 +113,6 @@ That's it! Save your config.plist and you should be ready to atempt an installat
 #### Pro tip for installing from USB: 
 **Try using a USB 2.0 port on the back of your motherboard.**  I spent DAYS trying to boot from usb 3.0 ports with no luck at all, untill I found a reddit post that pointed me in the right direction.  
 
+Don't forget to do the Post install process from the OpenCore Install Guide, and install the Nvidia Webdrivers.  
 
+Good luck!
