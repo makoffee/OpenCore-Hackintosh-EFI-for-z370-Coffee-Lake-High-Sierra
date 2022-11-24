@@ -65,7 +65,7 @@ However for our purposes skip to the bit about [**"Creating the USB"**](https://
 
 Now that you have created your bootable High Sierra USB stick copy the contents of this repo to your mounted EFI partition on your USB stick.
 
-#### For reference we are using the following:
+#### For reference we are using the following (all included):
 
 **OpenCorePKG v0.8.6**
 
