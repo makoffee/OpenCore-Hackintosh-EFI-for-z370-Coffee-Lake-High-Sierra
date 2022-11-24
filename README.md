@@ -61,7 +61,7 @@ https://dortania.github.io/OpenCore-Install-Guide/
 
 I know I've already thrown some shade toward's Dortania because of a lack of documented support for older versions of MacOS, however I must say that this guide is incredible and the amout of work that's gone into it is impressive.  However I must say this guide is meant to make you "get good noob", and it's targeted at users atempting more recent builds.  You will learn a lot and I highly recommend getting familiar with this guide.  
 
-However for our purposes skip to the bit about **"Creating the USB"**. And then come back here once you have gotten to the " Adding The Base OpenCore Files" as we have everything you need here.
+However for our purposes skip to the bit about [**"Creating the USB"**](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/). And then come back here once you have gotten to the " Adding The Base OpenCore Files" as we have everything you need here.
 
 Now that you have created your bootable High Sierra USB stick copy the contents of this repo to your mounted EFI partition on your USB stick.
 
@@ -76,18 +76,18 @@ Now that you have created your bootable High Sierra USB stick copy the contents 
 - SSDT-PMC.aml
 
 ### Drivers:
-- HfsPlus.efi
-- OpenCanopy.efi
-- OpenRuntime.efi
+- [HfsPlus.efi](https://github.com/acidanthera/OcBinaryData/blob/master/Drivers/HfsPlus.efi)
+- [OpenCanopy.efi](https://github.com/CeuiLiSA/Opencore-EFI/blob/master/EFI/OC/Drivers/OpenCanopy.efi)
+- [OpenRuntime.efi](https://github.com/CeuiLiSA/Opencore-EFI/blob/master/EFI/OC/Drivers/OpenRuntime.efi)
 
 ### Kexts:
-- AppleALC.kext
-- IntelMausi.kext
-- Lilu.kext
-- USBMap.kext (you will want create your own map post install)
-- VirtualSMC.kext
-- WhateverGreen.kext
-- XHCI-unsupported.kext
+- [AppleALC.kext](https://github.com/acidanthera/AppleALC/releases)
+- [IntelMausi.kext](https://github.com/acidanthera/IntelMausi/releases)
+- [Lilu.kext](https://github.com/acidanthera/Lilu/releases)
+- [USBMap.kext](https://github.com/corpnewt/USBMap) Mine is based on an z370G (you will want create your own map post install)
+- [VirtualSMC.kext](https://github.com/acidanthera/VirtualSMC/releases)
+- [WhateverGreen.kext](https://github.com/acidanthera/WhateverGreen/releases)
+- [XHCI-unsupported.kext](https://github.com/johnlimabravo/XHCI-unsupported)
 
 *It is advisable to grab the latest versions of the drivers, kexts, and spend some time learning how to set up your own manual builds for SSDTs via the guide. However you may have luck just using the provided versions in this repo to get through the install process.*
 
