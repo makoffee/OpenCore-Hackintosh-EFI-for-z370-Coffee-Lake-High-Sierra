@@ -1,7 +1,7 @@
 # OpenCore Hackintosh EFI for z370 Coffee Lake High Sierra
 Intel i7 8700K / Asus Z370-Prime-A / Nvidia GTX 1080 / OpenCore High Sierra [SUCCESS]
 
-Big thanks to [acidanthera](https://github.com/amrios) for his great starter EFI [project](https://github.com/amrios/z370-g_vanilla) I based most of this work on.  I appreciated his help so much I've decided to publicly post my EFI config in the hope that it's helpful to anyone else with a similar hardware build.  No promises but I will try to keep this up to date as I continue my hackintosh adventures.
+Big thanks to [amrios](https://github.com/amrios) for his great starter EFI [project](https://github.com/amrios/z370-g_vanilla) I based most of this work on.  I appreciated his help so much I've decided to publicly post my EFI config in the hope that it's helpful to anyone else with a similar hardware build.  No promises but I will try to keep this up to date as I continue my hackintosh adventures.
 
 # The Build
 - Asus Z370 Prime-A
