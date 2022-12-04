@@ -4,6 +4,8 @@
 <dict>
 	<key>#makoffee's Hackintosh - OpenCore 0.8.6</key>
 	<string>Intel i7-8700K (Coffee Lake), Asus PRIME Z370-A, High Sierra</string>
+	<key>#IMPORTANT</key>
+	<string>Dont forget to update your PlatformInfo details below from GenSMBIOS</string>
 	<key>ACPI</key>
 	<dict>
 		<key>Add</key>
@@ -654,11 +656,11 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02808104GUH69FUE</string>
+			<string>XXXXXXXXXXXXXXXXX</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
-			<data>TO37Z0TZ</data>
+			<data>XXXXXXXX</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
@@ -666,9 +668,9 @@
 			<key>SystemProductName</key>
 			<string>iMac18,3</string>
 			<key>SystemSerialNumber</key>
-			<string>C02W9VY4H7JY</string>
+			<string>XXXXXXXXXXXX</string>
 			<key>SystemUUID</key>
-			<string>0F5D5AFA-767C-483B-BD8E-4A6F169CCB8C</string>
+			<string>XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
