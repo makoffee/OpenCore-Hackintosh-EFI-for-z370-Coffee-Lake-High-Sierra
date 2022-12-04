@@ -1,7 +1,7 @@
 # OpenCore Hackintosh EFI for z370 Coffee Lake High Sierra
 Intel i7 8700K / Asus Z370-Prime-A / Nvidia GTX 1080 / OpenCore High Sierra [SUCCESS]
 
-This is an atempt to give others with similar setups a good starting point for setting up their Opencore hackintosh builds on similar hardware.  I cannnot stress enough that you cannot simply run someones elses EFI / config.plist and expect out of the box perfect results.  You will have to generate your own SmBIOS info unique to your system, and make adjustments to fit your needs and hardware.  However if you like me found it difficult to maintain and older MacOS build to support Nvidia Hardware on Coffee Lake, then you may find this a useful place to start.
+This is an atempt to give others hackintoshers a good starting point for setting up their Opencore hackintosh builds on similar hardware.  I cannnot stress enough that you cannot simply run someones elses EFI / config.plist and expect out of the box perfect results.  You will have to generate your own SmBIOS info unique to your system, and make adjustments to fit your needs and hardware.  However if you like me found it difficult to maintain an older MacOS, or transition from Clover on this build then you may find this a useful place to start.
 
 # The Build
 - Asus Z370 Prime-A
